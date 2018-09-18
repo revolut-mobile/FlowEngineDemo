@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A1CAD10214EC9320091C3AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1CAD08214EC9320091C3AD /* Assets.xcassets */; };
+		4A1CAD11214EC9320091C3AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1CAD09214EC9320091C3AD /* LaunchScreen.storyboard */; };
+		4A1CAD12214EC9320091C3AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1CAD0B214EC9320091C3AD /* Main.storyboard */; };
+		4A1CAD13214EC9320091C3AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CAD0E214EC9320091C3AD /* ViewController.swift */; };
+		4A1CAD14214EC9320091C3AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CAD0F214EC9320091C3AD /* AppDelegate.swift */; };
+		4A1CAD19214EC9860091C3AD /* GenericFlowEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CAD18214EC9860091C3AD /* GenericFlowEngine.swift */; };
+		4A1CAD1D214ED7AE0091C3AD /* NewVaultFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CAD1C214ED7AE0091C3AD /* NewVaultFlow.swift */; };
+		4A1CAD1F214ED7BB0091C3AD /* NewVaultFlowState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CAD1E214ED7BB0091C3AD /* NewVaultFlowState.swift */; };
+		4A1CAD22214FFF390091C3AD /* MoneyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CAD21214FFF390091C3AD /* MoneyItem.swift */; };
+		4A1CAD24214FFFA50091C3AD /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CAD23214FFFA50091C3AD /* Result.swift */; };
+		4A1CAD26215000930091C3AD /* Vault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CAD25215000930091C3AD /* Vault.swift */; };
+		4AA9A8BC2150F16900C5984B /* NewVaultFlowPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9A8BB2150F16900C5984B /* NewVaultFlowPerformer.swift */; };
+		4AA9A8BE2150F5B800C5984B /* NewVaultInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9A8BD2150F5B800C5984B /* NewVaultInteractor.swift */; };
+		4AA9A8C421515A4200C5984B /* SurveyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9A8C021515A4200C5984B /* SurveyModel.swift */; };
+		4AA9A8C521515A4200C5984B /* SurveyRouteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9A8C121515A4200C5984B /* SurveyRouteModel.swift */; };
+		4AA9A8C621515A4200C5984B /* SurveyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9A8C221515A4200C5984B /* SurveyViewModel.swift */; };
+		4AA9A8CA21515A5400C5984B /* SurveyFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9A8C821515A5400C5984B /* SurveyFlow.swift */; };
+		4AA9A8CB21515A5400C5984B /* SurveyFlowPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9A8C921515A5400C5984B /* SurveyFlowPerformer.swift */; };
+		4AA9A8CD21515A9C00C5984B /* GenericIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9A8CC21515A9C00C5984B /* GenericIdentifier.swift */; };
+		4AA9A8CF21515B4A00C5984B /* SurveyFlowState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9A8CE21515B4A00C5984B /* SurveyFlowState.swift */; };
+		4AA9A8D12151618A00C5984B /* SurveyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9A8D02151618900C5984B /* SurveyInteractor.swift */; };
+		4AA9A8D3215186A700C5984B /* SurveyExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AA9A8D2215186A700C5984B /* SurveyExample.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A1CACF2214E9B370091C3AD /* FlowEngineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowEngineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1CAD08214EC9320091C3AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A1CAD0A214EC9320091C3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A1CAD0C214EC9320091C3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A1CAD0E214EC9320091C3AD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A1CAD0F214EC9320091C3AD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A1CAD15214EC9550091C3AD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		4A1CAD18214EC9860091C3AD /* GenericFlowEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericFlowEngine.swift; sourceTree = "<group>"; };
+		4A1CAD1C214ED7AE0091C3AD /* NewVaultFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVaultFlow.swift; sourceTree = "<group>"; };
+		4A1CAD1E214ED7BB0091C3AD /* NewVaultFlowState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVaultFlowState.swift; sourceTree = "<group>"; };
+		4A1CAD21214FFF390091C3AD /* MoneyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyItem.swift; sourceTree = "<group>"; };
+		4A1CAD23214FFFA50091C3AD /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		4A1CAD25215000930091C3AD /* Vault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vault.swift; sourceTree = "<group>"; };
+		4AA9A8BB2150F16900C5984B /* NewVaultFlowPerformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVaultFlowPerformer.swift; sourceTree = "<group>"; };
+		4AA9A8BD2150F5B800C5984B /* NewVaultInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVaultInteractor.swift; sourceTree = "<group>"; };
+		4AA9A8C021515A4200C5984B /* SurveyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyModel.swift; sourceTree = "<group>"; };
+		4AA9A8C121515A4200C5984B /* SurveyRouteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyRouteModel.swift; sourceTree = "<group>"; };
+		4AA9A8C221515A4200C5984B /* SurveyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyViewModel.swift; sourceTree = "<group>"; };
+		4AA9A8C821515A5400C5984B /* SurveyFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyFlow.swift; sourceTree = "<group>"; };
+		4AA9A8C921515A5400C5984B /* SurveyFlowPerformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyFlowPerformer.swift; sourceTree = "<group>"; };
+		4AA9A8CC21515A9C00C5984B /* GenericIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericIdentifier.swift; sourceTree = "<group>"; };
+		4AA9A8CE21515B4A00C5984B /* SurveyFlowState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyFlowState.swift; sourceTree = "<group>"; };
+		4AA9A8D02151618900C5984B /* SurveyInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyInteractor.swift; sourceTree = "<group>"; };
+		4AA9A8D2215186A700C5984B /* SurveyExample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = SurveyExample.json; path = Resources/SurveyExample.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A1CACEF214E9B370091C3AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A1CACE9214E9B370091C3AD = {
+			isa = PBXGroup;
+			children = (
+				4AA9A8D2215186A700C5984B /* SurveyExample.json */,
+				4A1CAD0D214EC9320091C3AD /* Sources */,
+				4A1CAD07214EC9320091C3AD /* Resources */,
+				4A1CACF3214E9B370091C3AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A1CACF3214E9B370091C3AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A1CACF2214E9B370091C3AD /* FlowEngineDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A1CAD07214EC9320091C3AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A1CAD08214EC9320091C3AD /* Assets.xcassets */,
+				4A1CAD09214EC9320091C3AD /* LaunchScreen.storyboard */,
+				4A1CAD0B214EC9320091C3AD /* Main.storyboard */,
+				4A1CAD15214EC9550091C3AD /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4A1CAD0D214EC9320091C3AD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4A1CAD20214FFF1C0091C3AD /* Models */,
+				4A1CAD17214EC9860091C3AD /* Flow Engine */,
+				4A1CAD1B214ED3D40091C3AD /* New Vault Flow */,
+				4A1CAD1A214ED3D40091C3AD /* Survey Flow */,
+				4A1CAD0E214EC9320091C3AD /* ViewController.swift */,
+				4A1CAD0F214EC9320091C3AD /* AppDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4A1CAD17214EC9860091C3AD /* Flow Engine */ = {
+			isa = PBXGroup;
+			children = (
+				4A1CAD18214EC9860091C3AD /* GenericFlowEngine.swift */,
+			);
+			path = "Flow Engine";
+			sourceTree = "<group>";
+		};
+		4A1CAD1A214ED3D40091C3AD /* Survey Flow */ = {
+			isa = PBXGroup;
+			children = (
+				4AA9A8C821515A5400C5984B /* SurveyFlow.swift */,
+				4AA9A8CE21515B4A00C5984B /* SurveyFlowState.swift */,
+				4AA9A8C921515A5400C5984B /* SurveyFlowPerformer.swift */,
+				4AA9A8D02151618900C5984B /* SurveyInteractor.swift */,
+			);
+			path = "Survey Flow";
+			sourceTree = "<group>";
+		};
+		4A1CAD1B214ED3D40091C3AD /* New Vault Flow */ = {
+			isa = PBXGroup;
+			children = (
+				4A1CAD1C214ED7AE0091C3AD /* NewVaultFlow.swift */,
+				4A1CAD1E214ED7BB0091C3AD /* NewVaultFlowState.swift */,
+				4AA9A8BB2150F16900C5984B /* NewVaultFlowPerformer.swift */,
+				4AA9A8BD2150F5B800C5984B /* NewVaultInteractor.swift */,
+			);
+			path = "New Vault Flow";
+			sourceTree = "<group>";
+		};
+		4A1CAD20214FFF1C0091C3AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4AA9A8BF21515A4200C5984B /* Survey */,
+				4AA9A8CC21515A9C00C5984B /* GenericIdentifier.swift */,
+				4A1CAD21214FFF390091C3AD /* MoneyItem.swift */,
+				4A1CAD23214FFFA50091C3AD /* Result.swift */,
+				4A1CAD25215000930091C3AD /* Vault.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4AA9A8BF21515A4200C5984B /* Survey */ = {
+			isa = PBXGroup;
+			children = (
+				4AA9A8C021515A4200C5984B /* SurveyModel.swift */,
+				4AA9A8C221515A4200C5984B /* SurveyViewModel.swift */,
+				4AA9A8C121515A4200C5984B /* SurveyRouteModel.swift */,
+			);
+			path = Survey;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A1CACF1214E9B370091C3AD /* FlowEngineDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A1CAD04214E9B390091C3AD /* Build configuration list for PBXNativeTarget "FlowEngineDemo" */;
+			buildPhases = (
+				4A1CACEE214E9B370091C3AD /* Sources */,
+				4A1CACEF214E9B370091C3AD /* Frameworks */,
+				4A1CACF0214E9B370091C3AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowEngineDemo;
+			productName = FlowEngineDemo;
+			productReference = 4A1CACF2214E9B370091C3AD /* FlowEngineDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A1CACEA214E9B370091C3AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = revolut;
+				TargetAttributes = {
+					4A1CACF1214E9B370091C3AD = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 4A1CACED214E9B370091C3AD /* Build configuration list for PBXProject "FlowEngineDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A1CACE9214E9B370091C3AD;
+			productRefGroup = 4A1CACF3214E9B370091C3AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A1CACF1214E9B370091C3AD /* FlowEngineDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A1CACF0214E9B370091C3AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA9A8D3215186A700C5984B /* SurveyExample.json in Resources */,
+				4A1CAD12214EC9320091C3AD /* Main.storyboard in Resources */,
+				4A1CAD10214EC9320091C3AD /* Assets.xcassets in Resources */,
+				4A1CAD11214EC9320091C3AD /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A1CACEE214E9B370091C3AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA9A8C421515A4200C5984B /* SurveyModel.swift in Sources */,
+				4AA9A8C621515A4200C5984B /* SurveyViewModel.swift in Sources */,
+				4A1CAD14214EC9320091C3AD /* AppDelegate.swift in Sources */,
+				4A1CAD19214EC9860091C3AD /* GenericFlowEngine.swift in Sources */,
+				4AA9A8BE2150F5B800C5984B /* NewVaultInteractor.swift in Sources */,
+				4AA9A8BC2150F16900C5984B /* NewVaultFlowPerformer.swift in Sources */,
+				4A1CAD26215000930091C3AD /* Vault.swift in Sources */,
+				4AA9A8CA21515A5400C5984B /* SurveyFlow.swift in Sources */,
+				4A1CAD13214EC9320091C3AD /* ViewController.swift in Sources */,
+				4AA9A8C521515A4200C5984B /* SurveyRouteModel.swift in Sources */,
+				4A1CAD22214FFF390091C3AD /* MoneyItem.swift in Sources */,
+				4AA9A8CB21515A5400C5984B /* SurveyFlowPerformer.swift in Sources */,
+				4AA9A8CD21515A9C00C5984B /* GenericIdentifier.swift in Sources */,
+				4A1CAD24214FFFA50091C3AD /* Result.swift in Sources */,
+				4AA9A8D12151618A00C5984B /* SurveyInteractor.swift in Sources */,
+				4A1CAD1D214ED7AE0091C3AD /* NewVaultFlow.swift in Sources */,
+				4A1CAD1F214ED7BB0091C3AD /* NewVaultFlowState.swift in Sources */,
+				4AA9A8CF21515B4A00C5984B /* SurveyFlowState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A1CAD09214EC9320091C3AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A1CAD0A214EC9320091C3AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4A1CAD0B214EC9320091C3AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A1CAD0C214EC9320091C3AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A1CAD02214E9B390091C3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A1CAD03214E9B390091C3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A1CAD05214E9B390091C3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJ2CH6N5TR;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.revolut.FlowEngineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A1CAD06214E9B390091C3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJ2CH6N5TR;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.revolut.FlowEngineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A1CACED214E9B370091C3AD /* Build configuration list for PBXProject "FlowEngineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1CAD02214E9B390091C3AD /* Debug */,
+				4A1CAD03214E9B390091C3AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A1CAD04214E9B390091C3AD /* Build configuration list for PBXNativeTarget "FlowEngineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1CAD05214E9B390091C3AD /* Debug */,
+				4A1CAD06214E9B390091C3AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A1CACEA214E9B370091C3AD /* Project object */;
+}
